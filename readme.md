@@ -25,3 +25,4 @@ Se deben considerar ambas situaciones, tanto la carga al momento de crear e inic
 > Es posible cargar los archivos de forma "manual" y es directamente en la lambda, en la esquina superior de donde se encuentra el código fuente en "Cargar desde" y selecciona "Archivo .zip". Es importante destacar el hecho que previo a esta acción, es necesario ubicar tanto códigos como las carpetas de las dependencias en una sola carpeta para luego comprimirlas en el forma zip.
 
 > Una forma más automatizada para este procedimiento, es por medio de la terminal, y es que una vez conectados con AWS, se puede utilizar el comando ```aws lambda update-function-code --function-name <NOMBRE_LAMBDA> --zip-file fileb://<NOMBRE_PAQUETE>.zip```, de esta forma estamos cargando el zip con los archivos.
+***
